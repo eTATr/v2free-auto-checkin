@@ -28,7 +28,7 @@ except ImportError:
 # ==================== 配置区 ====================
 
 # V2Free 网站地址（可根据实际域名修改）
-BASE_URL = os.environ.get("V2FREE_URL", "https://w1.maxo.top")
+BASE_URL = os.environ.get("V2FREE_URL", "https://go.runba.cyou/user")
 
 # 认证方式：password（账号密码）或 cookie（直接用 Cookie）
 AUTH_METHOD = os.environ.get("AUTH_METHOD", "cookie").strip().lower()
